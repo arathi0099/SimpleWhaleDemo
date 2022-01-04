@@ -5,7 +5,7 @@ on:
       - 'main'
 jobs:
   build:
-    runs-on: ubunsteps:
+    runs-on: ubuntu-latest
       -
         name: Checkout 
         uses: actions/checkout@v2
